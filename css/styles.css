@@ -78,7 +78,7 @@ header {
 /* SIDEBAR */
 .header-box {
   width: 1170px;
-  background-image: url(/images/header/Slider1.jpg);
+  background-image: url(../images/header/Slider1.jpg);
 }
 .header-menu {
   display: flex;
