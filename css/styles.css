@@ -4,3 +4,135 @@ body {
   background: #fff;
   color: #303030;
 }
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+img {
+  display: block;
+}
+
+.booking-btn {
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  width: 160px;
+  height: 40px;
+  /* text */
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+}
+/* SIDEBAR */
+.sidebar {
+  padding-left: 30px;
+  height: 680px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  writing-mode: vertical-rl;
+  transform: scale(1);
+}
+
+.sidebar-menu {
+  transform: scale(-1);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.sidebar-nav {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+/* SIDEBAR */
+.header-box {
+  width: 1170px;
+  background-image: url(/images/header/Slider1.jpg);
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 52px;
+  margin-left: 100px;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.nav-links {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+.nav-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 43px;
+}
+.box-info {
+  margin-top: 184px;
+  margin-left: 100px;
+  display: block;
+  width: 444px;
+}
+.info-par1 {
+  /* text */
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.info-title {
+  padding-top: 20px;
+  /* text */
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.info-par2 {
+  padding-top: 20px;
+  /* text */
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
