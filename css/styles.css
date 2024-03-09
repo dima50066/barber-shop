@@ -42,6 +42,7 @@ img {
   border-radius: 25px;
   width: 160px;
   height: 40px;
+  cursor: pointer;
   /* text */
   font-weight: 600;
   font-size: 12px;
@@ -196,6 +197,7 @@ header {
   height: 40px;
   background-color: transparent;
   margin-top: 25px;
+  cursor: pointer;
   /* text */
   font-weight: 600;
   font-size: 12px;
@@ -212,11 +214,12 @@ header {
   background-image: linear-gradient(rgba(6, 6, 8, 0.7), rgba(11, 11, 16, 0.7)),
     url(../images/serv&prices/backprices.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .price-info {
   padding-top: 120px;
-  padding-left: 215px;
+  padding-bottom: 44px;
 }
 .price-info-par {
   font-weight: 600;
@@ -243,11 +246,38 @@ header {
 .price-box-1 {
   width: 570px;
   height: 240px;
-  background-color: #111319;
+  background-image: linear-gradient(to bottom, #171a24, #171a2433);
+  padding: 30px 21.3px 30px 20px;
 }
 .price-box-2 {
   width: 570px;
   height: 240px;
-  background-color: #111319;
+  background-image: linear-gradient(to bottom, #090b13, #090b1333);
+  padding: 30px 21.3px 30px 20px;
+}
+
+.price-box-li {
+  /* text */
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+  color: #9da4bd;
+}
+
+.serv-btn {
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  min-width: 160px;
+  height: 40px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  /* text */
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
 }
 /* services and prices */
