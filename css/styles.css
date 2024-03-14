@@ -426,3 +426,70 @@ header {
   gap: 30px;
 }
 /* portfolio */
+
+/* contacts */
+.contacts {
+  background-color: #191c26;
+}
+
+.online-form {
+}
+
+.form-title {
+  margin-bottom: 44px;
+  /* text */
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.contacts-field {
+  display: flex;
+  margin-bottom: 44px;
+  gap: 30px;
+}
+
+.contacts-field-input {
+  width: 270px;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #9da4bd66;
+  background-color: transparent;
+  padding: 0 0 8px 0;
+  outline: transparent;
+  /* text */
+}
+.contacts-field-input::placeholder {
+  /* text */
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #9da4bd66;
+}
+
+.contacts-field-textarea {
+  width: 570px;
+  height: 76px;
+  border: none;
+  border-bottom: 1px solid #9da4bd66;
+  background-color: transparent;
+  outline: transparent;
+  resize: none;
+  padding-top: 8px;
+}
+
+.contacts-field-textarea::placeholder {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+
+.contacts-field-input:focus {
+}
+.contacts-field-input:active {
+}
+/* contacts */
