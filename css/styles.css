@@ -409,3 +409,20 @@ header {
   fill: #303030;
 }
 /* barbers */
+
+/* portfolio */
+.portfolio-par {
+  margin-bottom: 44px;
+  /* text */
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+/* portfolio */
