@@ -240,6 +240,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 44px;
 }
 .price-box-1 {
   width: 570px;
@@ -428,6 +429,9 @@ header {
 /* contacts */
 .contacts {
   background-color: #191c26;
+  background-image: url(../images/contacts/image.png);
+  background-repeat: no-repeat;
+  background-position: 770px 0px;
 }
 
 .contacts-box {
@@ -498,7 +502,7 @@ header {
 
 .contacts-info {
   width: 785px;
-  height: 634px;
+  height: 395px;
   margin-left: 100px;
 }
 .contacts-info-title {
@@ -533,6 +537,7 @@ header {
   color: #fff;
 }
 .contacts-info-par2 {
+  /* text */
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -541,3 +546,33 @@ header {
   color: #9da4bd;
 }
 /* contacts */
+
+/* footer */
+.footer-par {
+  /* text */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
+.footer-box {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 40px;
+}
+.footer-social {
+  /* text */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+/* footer */
