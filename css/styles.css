@@ -52,6 +52,42 @@ img {
   color: #fff;
 }
 
+/* прочерк */
+.procherk-vert {
+  color: #303030;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.procherk-vert::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 0.5px;
+  height: 60px;
+  background-color: currentColor;
+  border-radius: 1px;
+  bottom: 100px;
+}
+
+.procherk-gor {
+  color: #303030;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.procherk-gor::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 0.5px;
+  background-color: currentColor;
+  border-radius: 1px;
+  left: -80px;
+  top: 6px;
+}
+/* прочерк */
+
 /* HEADER */
 header {
   display: flex;
@@ -119,6 +155,7 @@ header {
   width: 444px;
 }
 .info-par1 {
+  margin-left: 80px;
   /* text */
   font-weight: 600;
   font-size: 11px;
@@ -161,6 +198,7 @@ header {
   padding-right: 100px;
 }
 .about-par1 {
+  margin-left: 80px;
   /* text */
   font-weight: 600;
   font-size: 11px;
@@ -220,11 +258,12 @@ header {
   padding-bottom: 44px;
 }
 .price-info-par {
+  margin-left: 80px;
+  /* text */
   font-weight: 600;
   font-size: 11px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  /* text */
   color: rgba(157, 164, 189, 0.6);
 }
 .price-info-title {
@@ -305,18 +344,22 @@ header {
   gap: 20px;
 }
 .why-info-par1 {
+  margin-left: 80px;
+  /* text */
   font-weight: 600;
   font-size: 11px;
   text-transform: uppercase;
   color: #303030;
 }
 .why-info-title {
+  /* text */
   font-weight: 700;
   font-size: 42px;
   letter-spacing: 0.05em;
   color: #303030;
 }
 .why-info-pa2 {
+  /* text */
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66667;
@@ -330,6 +373,7 @@ header {
   background-color: #f7f7f7;
 }
 .barbers-par {
+  margin-left: 80px;
   /* text */
   font-weight: 600;
   font-size: 11px;
@@ -411,6 +455,7 @@ header {
 
 /* portfolio */
 .portfolio-par {
+  margin-left: 80px;
   margin-bottom: 44px;
   /* text */
   font-weight: 600;
